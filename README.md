@@ -12,6 +12,7 @@ Niedertarif:
 ![input_helper für €/kWh Niedertarif](/Bilder/Euro%20pro%20kWh%20nieder.png)
 
 ### Anlegen von Utility Meter
+![Verbrauchszähler](/Bilder/utility_meter.png)
 
 Der Utility Meter wird benötigt für den Wechsel zwischen Hoch- und Niedertarif
 Dies kann als Helper oder über YAML geschehen

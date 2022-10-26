@@ -16,7 +16,7 @@ Niedertarif:
 Der Utility Meter wird benötigt für den Wechsel zwischen Hoch- und Niedertarif
 Dies kann als Helper oder über YAML geschehen
 
-## Benötogite Autmationen
+## Benötigte Autmationen
 
 ```yaml
 alias: "[Strom] Hochtarif"
@@ -38,7 +38,8 @@ action:
         - select.strom_taglich
 mode: single
 ```
-- Diese Automation stellt um 07:00 Uhr an Arbeitstagen den Tarif aus dem Utility Meter auf Hochtarif
+- Diese Automation stellt um 07:00 Uhr an Arbeitstagen den Tarif aus dem Utility Meter auf Hochtarif. 
+  ***Die gewählten Zeiten und Tage sind abhängig vom Stromlieferanten. Diese muss entsprechend Angepasst werden.***
 
 ```yaml
 alias: "[Strom] Niedertarif"
@@ -62,6 +63,7 @@ mode: single
 ```
 - Diese Automation stellt um 20:00 Uhr den Tarif aus dem Utility Meter auf Niedertarif
   In meinem Fall gilt das für 20:00 - 07:00 Uhr unter der Woche und an Wochenenden und Feiertagen ganztägig
+  ***Die gewählten Zeiten und Tage sind abhängig vom Stromlieferanten. Diese muss entsprechend Angepasst werden.***
   
 ## Berechnung der Kosten je nach definierten Tarif
 
@@ -122,3 +124,6 @@ mode: single
   {% endif %}
   ```
   Wenn der aktuelle Monat zwischine Januar und Juni oder der Else fall zutrifft, wird der verbrauchte kWH Wert nach Tarif mit dem entsprechenden €/kWh Wert multipliziert und auf zwei Nachkommastellen gerundet.
+  
+  Selbige Einstellungen müssen Natürlich auch für den Hochtarif gemacht werden.
+  

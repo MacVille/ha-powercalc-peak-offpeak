@@ -6,10 +6,10 @@ Das ist ein Beispiel wie man in Home Assistant für Hoch und Niedertarif die Pre
 ### Zwei input_number Helper anlegen
 
 Hochtarif:
-![This is an image](/Bilder/Euro%20pro%20kWh%20Hoch.png)
+![input_helper für €/kWh Hochtarif](/Bilder/Euro%20pro%20kWh%20Hoch.png)
 
 Niedertarif:
-![This is an image](/Bilder/Euro%20pro%20kWh%20nieder.png)
+![input_helper für €/kWh Niedertarif](/Bilder/Euro%20pro%20kWh%20nieder.png)
 
 ### Anlegen von Utility Meter
 
